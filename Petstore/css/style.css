@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    min-width: 100vh;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+.sign-btn{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-weight: 400;
+}
+.login-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-color: #3366FF;
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 70px;
+    color: #2D2D2D;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: #8F8E92;
+}
+
+
+.btn1{
+        display: inline-block;
+        text-decoration: none;
+        padding: 14px 40px;
+        color: #3E3B34;
+        background-color: #F8D57E;
+        font-size: 14px;
+        border-radius: 30px;
+        border-top-right-radius: 0;   
+        transition: 0.5s;
+}
+.login-btn:hover{
+
+    border-top-right-radius: 30px;
+}
+
+.btn1:hover{
+    
+    border-top-right-radius: 30px;
+}
+.ft-img{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 80px;
+    right: 9%;
+}
+
+.vid{
+    text-align: center;
+    padding-top: 40px;
+}
