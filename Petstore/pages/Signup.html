@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoro | Home Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .container {
+            
+            background-color: transparent;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            margin-top: 400px;
+        }
+
+        .container h2 {
+        text-align: center;
+        color: #fff;
+        margin-top: 4px;
+    }
+
+        .form-group {
+            margin: 10px 0;
+        }
+
+        .form-group label {
+            display: flex;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-group button {
+            background-color: #29fd53;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 15px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .form-group button:hover {
+            background-color: #222327;
+            text-decoration: underline;
+        }
+        .container i{
+            font-size: 100px;
+            padding-left: 80px;
+        }
+</style>
+<body>
+
+    <header>
+        
+        <img src="/images/logo.png" width="50" height="50"class="logo"><span>ZORO'S <br> PET STORE</span>
+
+        <ul class="navbar">
+            <li><a href="#" class="on">Home</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/blog.html">Blog</a></li>
+            <li><a href="/pages/services.html">Services</a></li>
+            <li><a href="/pages/contanct.html">Contact</a></li>
+
+        </ul>
+
+        <div class="main">
+            <a href="/pages/login.html" class="user"><i class="ri-user-fill"></i></i>Log in</a>
+            <a href="#">Sign Up</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <i class="bx bxs-user"></i>
+        <h2>Create Account</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
+    </div>
+
+    </body>
+    </html>
